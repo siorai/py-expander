@@ -26,6 +26,7 @@ LANGUAGES_MAP = {
 
 # Upload settings.
 SHOULD_UPLOAD = True
+UPLOAD_TO = 'Google'
 ACD_CLI_PATH = '/usr/bin/acd_cli'
 DEFAULT_VIDEO_EXTENSION = '.mkv'
 SUBTITLES_EXTENSIONS = ['.srt']
