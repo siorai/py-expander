@@ -1,3 +1,20 @@
+About this fork
+===========
+
+Modifying py-expander to be able to add Google Drive uploading along side existing Amazon Drive Upload Capability
+by utilizing PyDrive's wrappers and utilizing an authentication-less form of access by way of ServiceLevelAuthentication
+to prevent script from interruption.
+
+It may be possible to call a 'sync' command similar to the way ACD allows access, but to my knowlege this isn't possible.
+
+Using Google Drive in this way requires the creation of a Service Level Account to be created within the Developers Console
+and copying the resulting authentication keyfile that is created upon creating the account to where transmission is running
+locally.  
+
+Unfortunately this requires the use a couple of additional libraries that I'll make to sure to list as I move forward.
+
+
+
 py-expander
 ===========
 
