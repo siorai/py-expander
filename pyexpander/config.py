@@ -1,15 +1,15 @@
 import babelfish
 
 # Local directory settings.
-TV_PATH = '~/Downloads/Transmission/Organized/TV'
-MOVIE_PATH = '~/Downloads/Transmission/Organized/Movies'
-APP_PATH = '~/Downloads/Transmission/Organized/Programs'
-MUSIC_PATH = '~/Downloads/Transmission/Organized/Music'
-OTHER_PATH = '~/Downloads/Transmission/Organized/Other'
-DEFAULT_PATH = '~/Downloads/Transmission/Organized/'
+TV_PATH = '/home/siorai/Downloads/Transmission/Organized/TV'
+MOVIE_PATH = '/home/siorai/Downloads/Transmission/Organized/Movies'
+APP_PATH = '/home/siorai/Downloads/Transmission/Organized/Programs'
+MUSIC_PATH = '/home/siorai/Downloads/Transmission/Organized/Music'
+OTHER_PATH = '/home/siorai/Downloads/Transmission/Organized/Other'
+DEFAULT_PATH = '/home/siorai/Downloads/Transmission/Organized/'
 
 # Log settings.
-LOGFILE = '/var/log/pyexp.log'
+LOGFILE = 'pyexp.log'
 
 # Extraction settings.
 EXTRACTION_FILES_MASK = '770'
@@ -25,7 +25,7 @@ LANGUAGES_MAP = {
 }
 
 # Upload settings.
-SHOULD_UPLOAD = True
+SHOULD_UPLOAD = False
 UPLOAD_TO = 'Google'
 ACD_CLI_PATH = '/usr/bin/acd_cli'
 DEFAULT_VIDEO_EXTENSION = '.mkv'
